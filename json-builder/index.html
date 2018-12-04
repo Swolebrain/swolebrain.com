@@ -1,0 +1,177 @@
+<!doctype html>
+<html>
+    <head>
+        <title>JSON Builder</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.1/css/materialize.min.css">
+        <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <style>
+            input[type=text]{
+                margin-bottom:0;
+            }
+            #row-holder .row{
+                margin-bottom: 5px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="row">
+          <div class="col m6 card">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="json.png">
+            </div>
+            <div class="card-content">
+                <span class="card-title activator grey-text text-darken-4">Json Fields<i class="material-icons right">more_vert</i></span>
+                
+                <div class="row">
+                    <div class="col s4">
+                        Property
+                    </div>
+                    <div class="col s8">
+                        Value
+                    </div>
+                </div>
+                <div id="row-holder">
+                    <div class="row">
+                        <div class="col s4">
+                            <input type="text">
+                        </div>
+                        <div class="col s8">
+                            <input type="text">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col s4">
+                            <input type="text">
+                        </div>
+                        <div class="col s8">
+                            <input type="text">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col s4">
+                            <input type="text">
+                        </div>
+                        <div class="col s8">
+                            <input type="text">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col s4">
+                            <input type="text">
+                        </div>
+                        <div class="col s8">
+                            <input type="text">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col s4">
+                            <input type="text">
+                        </div>
+                        <div class="col s8">
+                            <input type="text">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col s4">
+                            <input type="text">
+                        </div>
+                        <div class="col s8">
+                            <input type="text">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col s4">
+                            <input type="text">
+                        </div>
+                        <div class="col s8">
+                            <input type="text">
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div id="add" class="col s4 btn waves-effect blue darken-4">
+                        Add more fields
+                        
+                    </div>
+                    <div id="vomit" class="col s4 offset-s4 btn waves-effect blue darken-4">
+                        Vomit json
+                    </div>
+                </div>
+                <div class="row">
+                    <div id="clear1" class="col s4 btn waves-effect blue darken-4">
+                        clear col 1
+                    </div>
+                    <div id="clear2" class="col s4 btn waves-effect blue darken-4">
+                        clear col 2
+                    </div>
+                    <div id="clearall" class="col s4 btn waves-effect blue darken-4">
+                        clear both cols
+                    </div>
+                </div>
+            </div>
+          </div> <!-- end card 1 -->
+          <div class="row">
+              <div class="col m6 card">
+                
+                <div class="card-content">
+                    <span class="card-title activator grey-text text-darken-4">Json output<i class="material-icons right">more_vert</i></span>
+                    <div id="json-output">
+                    
+                    </div>
+                </div>
+              </div>
+          </div>
+                
+        </div>
+        <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+        <script>
+            var htmlstr = '<div class="row"><div class="col s4"><input type="text"></div><div class="col s8"><input type="text"></div></div>';
+            $(document).ready(function(){
+                $("#add").on("click", function(){
+                    $("#row-holder").append($(htmlstr));
+                });
+                $("#vomit").on("click", function(){
+                    var inputSet = $("#row-holder").find(".row");
+                    var out = $("#json-output").html("{<br>");
+                    $.each(inputSet, function(idx, elem){
+                        console.log(elem);
+                        var i1 = $(elem).find("input").first();
+                        var i2 = $(elem).find("input").last();
+                        if(i1.val() == "" || i2.val() == "") return false;
+                        var appendStr = i1.val()+':   ';
+                        var propBody = i2.val().replace(/[\n\r]/g, "").replace(/'/g, "\'").replace(/"/g, "'");
+                        if (i2.val().substring(0,1) == "[" || i2.val().substring(0,1) == "{"){
+                            //this thing is an object, don't append quotes
+                            appendStr += propBody+',<br>';
+                        }
+                        else{
+                            appendStr += '"'+propBody+'",<br>';
+                        }
+                        out.append(appendStr);
+                        console.log("appended "+appendStr);
+                    });
+                    out.append("}");
+                });
+                $("#clear1").on("click", function(){
+                    var inputSet = $("#row-holder").find(".row");
+                    $.each(inputSet, function(idx, elem){
+                        $(elem).find("input").first().val("");
+                    });
+                });
+                $("#clear2").on("click", function(){
+                    var inputSet = $("#row-holder").find(".row");
+                    $.each(inputSet, function(idx, elem){
+                        $(elem).find("input").last().val("");
+                    });
+                });
+                $("#clearall").on("click", function(){
+                    var inputSet = $("#row-holder").find(".row");
+                    $.each(inputSet, function(idx, elem){
+                        $(elem).find("input").first().val("");
+                        $(elem).find("input").last().val("");
+                    });
+                });
+            });
+        </script>
+    </body>
+</html>

@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Portfolio Page</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/font-awesome.min.css" />
+    <link rel="stylesheet" href="css/style.css"  />
+    <link rel="icon" href="img/swolebrain-icon.gif"  />
+  </head>
+  <body>
+    <nav class="navbar navbar-inverse">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-2">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="//www.swolebrain.com">
+            <img src="img/swolebrain-icon.gif" class='logo' alt="swolebrain"/>
+          </a>
+        </div>
+
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-2">
+          <ul class="nav navbar-nav">
+            <li><a href="index.html">Portfolio</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="//www.github.com/swolebrain">Github</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="bg-div">
+      <img class="center-block" src="img/bg.jpg" />
+      <h1 id="page-title">Portfolio</h1>
+    </div>
+    <div id="main-page" class="container">
+      <div class="row">
+        <h1 class="white-text name">Victor Moreno</h1>
+      </div>
+      <hr />
+      <div class="row">
+        <div class="col-xs-12 col-md-7">
+          <img class="img-responsive" src="img/frogger.png" />
+        </div>
+        <div class="col-xs-12 col-md-5">
+          <h3>Frogger Game Using ES6</h3>
+          <h4>Uses class syntax and live reload dev server</h4>
+          <p>
+            This project was part of the Front End Web Developer Nanodegree at
+            Udacity. In its original version, it used pseudoclassical prototypal
+            classes and inheritance. It has since been ammended to use <strong>ES6 classes,
+            ES6 import/export syntax</strong>, and has a hot-reload-enabled dev server (budo)
+            which uses <strong>watchify with the babelify transform</strong> and the es2015 babel
+            preset to transpile and run.
+          </p>
+          <a href="https://github.com/Swolebrain/frontend-nanodegree-arcade-game" class="btn btn-info">View on Github</a>
+          <a href="http://swolebrain.com/arcade_game/" class="btn btn-info">View Live</a>
+        </div>
+      </div>
+
+      <hr />
+      <div class="row">
+        <div class="col-md-7 hidden-md hidden-lg hidden-xl">
+          <img class="img-responsive" src="img/ex.png"  />
+        </div>
+        <div class="col-xs-12 col-md-5">
+          <h3>JavaScript Exercise Grader</h3>
+          <h4>Pure jQuery and live reload dev server</h4>
+          <p>
+            This is a tool aimed at helping students get the practice they need in
+            order to really learn to code. I'm developing it because I feel most
+            free coding resources are too light on the drilling. I feel students
+            would benefit from simpler, shorter exercises that can be completed
+            in one or two minutes each. This project has a <strong>Node.JS RESTful
+            back-end</strong> and a completely decoupled front-end.
+          </p>
+          <a href="https://github.com/Swolebrain/exercise-grader" class="btn btn-info">View Front End on Github</a>
+          <a href="http://tech.fvi.edu/coders_corner/exercise-grader" class="btn btn-info">View Live</a>
+        </div>
+        <div class="col-md-7 hidden-xs hidden-sm">
+          <img class="img-responsive" src="img/ex.png" />
+        </div>
+      </div>
+
+      <hr />
+      <div class="row">
+        <div class="col-xs-12 col-md-7">
+          <img class="img-responsive" src="img/ppg.png" />
+        </div>
+        <div class="col-xs-12 col-md-5">
+          <h3>Personnel Evaluation</h3>
+          <h4>MERN stack app (ReactJS/mongo)</h4>
+          <p>
+            This project was my first heavy dive into React. It uses the old
+            createClass Syntax but its data flow is controlled with <strong>
+            Redux</strong> and it's packaged with <strong>Webpack</strong>.
+            It also uses <strong>JWT authorization/authentication</strong>
+            with <strong>Azure Active Directory</strong> as a provider.
+          </p>
+          <p>
+            Live Link Requires Azure AD email. You can use fviguest@fvi.edu
+            with password learncoding1!
+          </p>
+          <a href="https://github.com/Swolebrain/people-evaluation" class="btn btn-info">View Front End on Github</a>
+          <a href="http://fvi-grad.com/people-plotting-frontend/" class="btn btn-info">View Live</a>
+        </div>
+      </div>
+
+    </div>
+    <footer>
+      <div class="container text-center">
+        <div class="row">
+          <div class="col-xs-12">
+            <h2>Get in touch</h2>
+            <a href="http://www.linkedin.com/in/thecodingteacher">
+              <i class="fa fa-linkedin-square fa-3x" aria-hidden="true"></i>
+            </a>
+            <a href="http://www.github.com/swolebrain">
+              <i class="fa fa-github fa-3x" aria-hidden="true"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

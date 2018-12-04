@@ -1,0 +1,7 @@
+<div class='row'>
+	<div class='col s12'>
+		<p>
+			This text has a <span class='clicker' style='color:blue;'>click</span> attribute! (Click here for greater good?)
+		</p>
+	</div>
+</div>

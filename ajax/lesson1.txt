@@ -1,0 +1,1 @@
+<p>Looks like you've got it working! Great job! Now try to add a click counter. To do this, you'll need to start a counter before your click handler, then every time you click, have the handler increment the counter variable, and in the .html() function, instead of just having response, have response + what it takes to get the counter to show up.</p>

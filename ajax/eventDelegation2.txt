@@ -1,0 +1,11 @@
+<h4>
+	Scientology!
+</h4>
+<p>
+	Do you fear intergalactic deities? Fear no longer! Dr. Cruise will guide you through the neccessary steps.
+</p>
+<div class='duration'>
+	1 day? 2?
+</div>
+<div class='price' id='cTownBtn'>Check Price</div>
+<div class='ajax' id='cTown'></div>

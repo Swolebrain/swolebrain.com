@@ -1,0 +1,11 @@
+<h4>
+	Crazitown!
+</h4>
+<p>
+	Enjoy the highlights of Crazitown with none other than the <em>Mayor</em> himself, Dr. Tomas Cruise!
+</p>
+<div class='duration'>
+	6 days and a lifetime
+</div>
+<div class='price' id='cTownBtn'>Check Price</div>
+<div class='ajax' id='cTown'></div>

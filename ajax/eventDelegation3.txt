@@ -1,0 +1,11 @@
+<h4>
+	Katie Holmes!
+</h4>
+<p>
+	Who could tell you more about Katie than good ol' Dr. Tom? If you're a Holmes fan, you need this.
+</p>
+<div class='duration'>
+	2 days, 14 nights
+</div>
+<div class='price' id='cTownBtn'>Check Price</div>
+<div class='ajax' id='cTown'></div>

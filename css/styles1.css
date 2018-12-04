@@ -1,0 +1,60 @@
+/* Fonts
+.tk-chemist-rough  swolebrain font class (handwritten)
+.tk-voluta-script-pro  script
+Titillium Web -> modern looking
+Rock Salt -> Handwriting
+*/
+.basetext {
+  background-color:black;
+  font-family: 'Titillium Web', Helvetica;
+  color:white;
+}
+
+body{
+	background-color:#000;
+}
+
+#canvas {
+    position: absolute;
+    top: 50%; left: 50%;
+    margin: -300px 0 0 -300px;
+}
+
+.sbmain-title {
+	font-family: 'Rock Salt', cursive;
+	font-size: "50%";
+}
+
+.image-nomargin{
+	margin: 0;
+	padding: 0;
+}
+
+.whiteborder{	
+	border:solid 1px #FFFFFF;
+	border-radius: 15px;
+}
+
+.shadowed-div{
+	box-shadow: 0 0 70px 0 #A1A1A1;
+	-webkit-box-shadow: 0 0 70px 0 #A1A1A1;
+	margin: 0 auto;
+}
+
+hr{
+	margin-bottom:30px;
+}
+
+.row-moretoppadding{
+	padding-top:30px;
+}
+
+
+.btn-black{
+	color:#FFF;
+	background-color:#131313;
+	border-color:#9B9B9B;
+	border-radius:8px;
+	padding: 10px 16px;
+	font-size: 16pt;
+}

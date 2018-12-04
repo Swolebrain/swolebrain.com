@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>3D Canvas Intro Page</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+		<style>
+			body {
+				background-color: #000000;
+				margin: 0px;
+				overflow: hidden;
+			}
+
+			a {
+				color:#0078ff;
+			}
+		</style>
+	</head>
+	<body>
+
+		<script src="http://threejs.org/build/three.min.js"></script>
+
+		<script src="http://threejs.org/examples/js/renderers/Projector.js"></script>
+		<script src="http://threejs.org/examples/js/renderers/CanvasRenderer.js"></script>
+
+		<script>
+			"use strict;";
+			var dotsInCircles = [];
+			var verts = [];
+			var allLines = [];
+			var explosionMultiplier = 1;
+			var touchPos = {x: "", y: ""};
+			var SCREEN_WIDTH = window.innerWidth,
+			SCREEN_HEIGHT = window.innerHeight,
+			mouseX = 0, mouseY = 0,
+
+			windowHalfX = window.innerWidth / 2,
+			windowHalfY = window.innerHeight / 2,
+
+			SEPARATION = 200,
+			AMOUNTX = 10,
+			AMOUNTY = 10,
+
+			camera, scene, renderer;
+			
+			var clock = new THREE.Clock();
+			var dt;
+
+			init();
+			animate();
+
+			function init() {
+
+				var container, separation = 100, amountX = 50, amountY = 50;
+
+				container = document.createElement('div');
+				document.body.appendChild(container);
+
+				camera = new THREE.PerspectiveCamera( 75, SCREEN_WIDTH / SCREEN_HEIGHT, 1, 10000 );
+				camera.position.z = 1000;
+
+				scene = new THREE.Scene();
+
+				renderer = new THREE.CanvasRenderer();
+				renderer.setPixelRatio( window.devicePixelRatio );
+				renderer.setSize( SCREEN_WIDTH, SCREEN_HEIGHT );
+				container.appendChild( renderer.domElement );
+				
+				
+				
+				var materials = [ new THREE.MeshBasicMaterial( {color: 0xaaaaaa} ),
+								new THREE.MeshBasicMaterial( {color: 0xbbbbbb} ),
+								new THREE.MeshBasicMaterial( {color: 0x444444} ),
+								new THREE.MeshBasicMaterial( {color: 0xcccccc} ),
+								new THREE.MeshBasicMaterial( {color: 0xffffff} ),
+								new THREE.MeshBasicMaterial( {color: 0x777777} )];
+				
+				
+				/* circular paths */
+				var radius = 2; 
+				var segments = 2; 
+				var maxy = Math.max(SCREEN_HEIGHT/4, SCREEN_HEIGHT/2-275);
+				var center1 = {x: -SCREEN_WIDTH/4, y: maxy};
+				var center2 = {x: SCREEN_WIDTH/4, y: maxy};
+				var circleGeometry, circle;
+				for ( var i = 0; i < 800; i ++ ) {
+					circleGeometry = new THREE.CircleGeometry( radius, segments); 
+					circle = new THREE.Mesh( circleGeometry, materials[Math.floor(Math.random()*6)] );
+					var rad = Math.random()*75+200;
+					var theta = Math.random()*2*Math.PI;
+					if (i%2 === 0) circle.center = center1;
+					else circle.center = center2;
+					var x = Math.cos(theta)*rad + circle.center.x;
+					var	y = Math.sin(theta)*rad + circle.center.y;
+					circle.position.set( x, y , 0 );
+					scene.add( circle );
+					circle.rad = rad;
+					circle.theta = theta;
+					circle.dt = 0.003+Math.random()/200;
+					if (i % 2 === 1) circle.dt = -circle.dt;
+					dotsInCircles.push(circle);
+
+				}
+				
+				
+				/* bg lines and circles */
+				var vertGeo, vert;
+				var numVerts = 400;
+				var mat = new THREE.MeshBasicMaterial( {color: 0x444444} );
+				var w = 3, h = 3, d = 3;
+				for (var i = 0; i < numVerts; i++){
+					vertGeo = new THREE.BoxGeometry( w, h, d); 
+					vert = new THREE.Mesh( vertGeo, mat );
+					vert.position.set( Math.random()*SCREEN_WIDTH*.8-SCREEN_WIDTH*.4, 
+									Math.random()*SCREEN_HEIGHT*.6-SCREEN_HEIGHT*.3 , 
+									-Math.random() );
+					vert.dx=Math.random()*10-5;
+					vert.dy=Math.random()*10-5;
+					scene.add(vert);
+					verts.push(vert);
+				}
+				
+				
+				//document.addEventListener( 'mousemove', onDocumentMouseMove, false );
+				document.addEventListener( 'touchstart', onDocumentTouchStart, false );
+				document.addEventListener( 'touchmove', onDocumentTouchMove, false );
+				//document.addEventListener( 'touchend', onDocumentTouchStart, false );
+
+				//
+
+				window.addEventListener( 'resize', onWindowResize, false );
+
+			}
+
+			function onWindowResize() {
+
+				windowHalfX = window.innerWidth / 2;
+				windowHalfY = window.innerHeight / 2;
+
+				camera.aspect = window.innerWidth / window.innerHeight;
+				camera.updateProjectionMatrix();
+
+				renderer.setSize( window.innerWidth, window.innerHeight );
+
+			}
+
+			//
+
+			function onDocumentMouseMove(event) {
+
+				mouseX = event.clientX - windowHalfX;
+				mouseY = event.clientY - windowHalfY;
+			}
+
+			function onDocumentTouchStart( event ) {
+				if ( event.touches.length > 1 ) {
+					event.preventDefault();
+					touchPos.x = event.touches[ 0 ].pageX;
+					touchPos.y = event.touches[ 0 ].pageY;
+
+				}
+
+			}
+
+			function onDocumentTouchMove( event ) {
+				if ( event.touches.length == 1 ) {
+					event.preventDefault();
+					var touchX = event.touches[ 0 ].pageX ;
+					var touchY = event.touches[ 0 ].pageY;
+					if (touchX > touchPos.x || touchY > touchPos.y) onScroll();
+				}
+
+			}
+
+			function onScroll(){
+				explosionMultiplier = .9;
+				clicked = true;
+			}
+			
+			window.addEventListener('mousewheel', onScroll);
+			document.addEventListener('mousedown', onScroll);
+			
+			//game loop
+			function animate() {
+				dt = clock.getDelta();
+				requestAnimationFrame( animate );
+
+				render(dt);
+
+			}
+			
+			var clicked = false;
+			var lineDrawThreshold = Math.min(SCREEN_WIDTH/3, SCREEN_HEIGHT/3);
+			function render(dt) {
+				for (var i = 0, l = dotsInCircles.length ; i < l; i++){
+					var circle = dotsInCircles[i];
+					circle.theta += circle.dt;
+					var x = Math.cos(circle.theta)*circle.rad + circle.center.x;
+					var	y = Math.sin(circle.theta)*circle.rad + circle.center.y;
+					circle.position.set( x, y , 0 );
+				}
+				for (var i = 0, l = verts.length ; i < l; i++){
+					var vert = verts[i];
+					vert.position.set(vert.position.x+vert.dx,vert.position.y+vert.dy, vert.position.z);
+					if (vert.position.x < -SCREEN_WIDTH*.5 || vert.position.x > SCREEN_WIDTH*.5) vert.dx = -vert.dx;
+					if (vert.position.y < -SCREEN_HEIGHT*.5 || vert.position.y > SCREEN_HEIGHT*.5) vert.dy = -vert.dy;
+					
+				}
+				
+				camera.lookAt( scene.position );
+				
+				renderer.render( scene, camera );
+
+			}
+
+		</script>
+	</body>
+</html>

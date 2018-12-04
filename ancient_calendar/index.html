@@ -1,0 +1,67 @@
+<!doctype html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="css/styles.css">
+<script src="js/canvas.js"></script>
+<script src="js/controls.js"></script>
+<meta charset="utf-8">
+<title>Ancient Calendar</title>
+</head>
+<body>
+	<div class="container">
+        <img src="img/background.png" class='bgimg canvas' alt=""/>
+        <canvas id="canvas-outer" class="canvas" width="480" height="480"></canvas>
+        <canvas id="canvas-mid" class="canvas"  width="480" height="480"></canvas>
+        <canvas id="canvas-inner" class="canvas"  width="480" height="480"></canvas>
+    </div>
+    <div class="after-canvas">
+    	<table>
+        	<tr>
+                <td>Hours:</td> <td><img src="img/arrow-up.png" id="hoursUp" width="20" height="12" alt=""/></td>
+                		<td><input class="text-box" id="hours" type="text"> </td>
+                        <td> <img src="img/arrow-down.png" id="hoursDown" width="20" height="12" alt=""/></td>
+                        <td><div style="width:30px"></div></td>
+                <td>Minutes:</td> <td><img src="img/arrow-up.png" id="minutesUp" width="20" height="12" alt=""/></td>
+                		<td> <input class="text-box" id="minutes" type="text"></td>
+                        <td> <img src="img/arrow-down.png" id="minutesDown" width="20" height="12" alt=""/></td>
+        	</tr>
+            <tr>
+                <td>Month:</td> <td><img src="img/arrow-up.png" id="monthUp" width="20" height="12" alt=""/></td>
+                		<td> <input class="text-box" id="month" type="text"> </td>
+                        <td> <img src="img/arrow-down.png" id="monthDown" width="20" height="12" alt=""/></td>
+                        <td><div style="width:30px"></div></td>
+                <td>Day: </td> <td><img src="img/arrow-up.png" id="dayUp" width="20" height="12" alt=""/></td>
+                		<td><input class="text-box" id="day" type="text"></td>
+                        <td> <img src="img/arrow-down.png" id="dayDown" width="20" height="12" alt=""/></td>
+	        </tr>
+            <tr>
+                <td>Age:</td> <td><img src="img/arrow-up.png" id="ageUp" width="20" height="12" alt=""/></td>
+                		<td> <input class="text-box" id="age" type="text"> </td>
+                        <td> <img src="img/arrow-down.png" id="ageDown" width="20" height="12" alt=""/></td>
+                        <td><div style="width:30px"></div></td>
+                <td>Z Years: </td> <td><img src="img/arrow-up.png" id="zodiacUp" width="20" height="12" alt=""/></td>
+                		<td><input class="text-box" id="zodiac" type="text"></td>
+                        <td> <img src="img/arrow-down.png" id="zodiacDown" width="20" height="12" alt=""/></td>
+	        </tr>
+            <tr> 
+            	<td colspan="9">
+            	Conversion from Gregorian:
+                </td>
+            </tr>
+            <tr>
+            	<td>Gregorian Year</td><td colspan=2><input class="text-box" id="greg-year" type="text"></td>
+                <td>Month</td><td colspan=2><input class="text-box" id="greg-month" type="text"></td>
+                <td>Day</td><td colspan=2><input class="text-box" id="greg-day" type="text"></td>
+            </tr>
+            <tr>
+            	<td colspan=9 style="height:60px;"><div class="btn" id="button">Convert</div></td>
+            </tr>
+        </table>
+    </div>
+    <script>
+		var calendar = new AncientCalendar(this);
+		loadControls();
+		
+	</script>
+</body>
+</html>

@@ -1,0 +1,127 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE-Edge">
+<!-- adobe typekit embed code: 
+<script src="//use.typekit.net/whx5acd.js"></script>
+<script>try{Typekit.load();}catch(e){}</script> -->
+<link href='http://fonts.googleapis.com/css?family=Rock+Salt|Titillium+Web' rel='stylesheet'>
+<link rel="stylesheet" href="css/bootstrap.css">
+<title>Games Portfolio</title>
+<link rel="stylesheet" href="css/styles1.css"> 
+<script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script> 
+
+</head>
+<body class="basetext">
+<div class="container">
+  <div class="row">
+    <div class="col-xs-12 col-md-3 text-center">
+	  <a href="index.html"><img class="img-responsive center-block" src="assets/swolebrain-small-square-notext.png" alt="Swolebrain logo"></a>
+	</div>
+	<div class="col-xs-12 col-md-9 text-right">
+		<h1 class="sbmain-title">Swolebrain Game Development</h1>
+	</div>
+  </div> <!-- end row 1 -->
+    <div class="row">
+      <div class="col-xs-12">
+          <hr>
+      </div>
+  </div><!-- end row 2 hr-->
+  <div class="row shadowed-div whiteborder">
+      <div class="col-xs-12 image-nomargin">
+          <img class="img-responsive center-block whiteborder" src="assets/gameDevCenterTile.png" alt="Game Development Showcase">
+      </div>
+  </div><!-- end row 3 -->
+    <div class="row">
+      <div class="col-xs-12">
+          <h2>Featured Work</h2>
+      </div>
+  </div><!-- end row 4 -->
+  <div class="row text-center row-moretoppadding">
+      <div class="col-xs-6 col-md-4">
+      	   <img class="img-responsive center-block whiteborder" src="assets/deathonwheels-sm.png" data-toggle="modal" data-target="#deathonwheelsModal" alt="Death on wheels: Vehicular combat 3D Game">
+           <h3>Death on Wheels</h2>
+           <h5>Vehicular Combat</h3>
+      </div>
+      <div class="col-xs-6 col-md-4">
+      	   <img class="img-responsive center-block whiteborder" src="assets/hellonearth-sm.png" data-toggle="modal" data-target="#hellonearthModal" alt="Hell on Earth: Arcade style action multiplayer game">
+           <h3>Hell on Earth</h2>
+           <h5>Isometric Arcade Shooter</h3>
+      </div>
+      <div class="col-xs-6 col-md-4">
+      	   <img class="img-responsive center-block whiteborder" src="assets/destroyeverything-sm.png" data-toggle="modal" data-target="#destroyeverythingModal" alt="Destroy everything: Arcade shooter from top view.">
+           <h3>Destroy Everything</h2>
+           <h5>Arcade Style Shooter</h3>
+      </div>
+  </div><!-- end row 5  -->
+  <div class="row row-moretoppadding">
+      <div class="col-xs-12">
+      	<hr>
+      </div>
+  </div> <!-- end row 6 hr -->
+    <div class="row text-right">
+      <div class="col-xs-12">
+      	<small>Web development and design by Swolebrain</small>
+      </div>
+  </div> <!-- end row 6 hr -->
+</div> <!-- end main container -->
+<!-- Modal - Hell on Earth -->
+<div class="modal fadet" id="hellonearthModal" tabindex="-1" role="dialog" aria-labelledby="Death on Wheels" aria-hidden="true">
+  <div class="modal-dialog whiteborder">
+    <div class="modal-content basetext whiteborder">
+      <div class="modal-header">
+        <h2 id="myModalLabel">Hell on Earth</h4>
+      </div>
+      <div class="modal-body text-justify">
+        <img class="img-responsive center-block whiteborder" src="assets/hellonearth.png">
+        This was my first ever project in game development. It's designed as an extremely fast paced arcade shooter with melee combat. Characters fly around the screen at speeds equivalent to 200+ mph. It's made from the ground up in Java using nothing but awt. No third party libraries or engines are used. Image rendering is raster-based and arrays of pixels are rendered one at a time rather than using BufferedImage rendering. An RBGA color blending algorithm is also implemented. Mobs with A* path finding have been implemented. Particle systems with mini explosions on collision have been implemented. Health bar has been implemented.<br>
+        Next steps are perfecting melee combat, adding menus for the intro screen and player death, and developing the multiplayer aspect.<br>
+        <a href="assets/games/Game.jar">Download Jar file.</a>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-black" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Modal - Death on Wheels -->
+<div class="modal fadet" id="deathonwheelsModal" tabindex="-1" role="dialog" aria-labelledby="Death on Wheels" aria-hidden="true">
+  <div class="modal-dialog whiteborder">
+    <div class="modal-content basetext whiteborder">
+      <div class="modal-header">
+        <h2 id="myModalLabel">Death on Wheels</h4>
+      </div>
+      <div class="modal-body text-justify">
+        <img class="img-responsive center-block whiteborder" src="assets/deathonwheels.png">
+        This was my first project in 3d game design and Unity. It features realistic racing gameplay with wheel colliders and stabilization bars. Radioactive barrels can be picked up and shot at enemies. Vehicle can be reset once flipped. Currently working on ragdoll physics for collisions with pedestrians, new weapons, and new car models.<br>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-black" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Modal - Destroy Everything -->
+<div class="modal fadet" id="destroyeverythingModal" tabindex="-1" role="dialog" aria-labelledby="Death on Wheels" aria-hidden="true">
+  <div class="modal-dialog whiteborder">
+    <div class="modal-content basetext whiteborder">
+      <div class="modal-header">
+        <h2 id="myModalLabel">Destroy Everything</h4>
+      </div>
+      <div class="modal-body text-justify">
+        <img class="img-responsive center-block whiteborder" src="assets/destroyeverything.png">
+        This was a project I put together in order to introduce my AP Computer Science students to game development. The artwork was either pre-made or downloaded and the project took a total of 5 hours to make. The aim was to develop an arcade 2D shooter in the spirit of Gunbirds.<br>
+        Next steps are adding an intro screen, more backgrounds/levels, and better bad guys.<br>
+        <a href="assets/games/TopDownShooter.jar">Download Jar file.</a>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-black" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

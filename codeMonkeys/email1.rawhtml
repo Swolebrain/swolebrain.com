@@ -1,0 +1,564 @@
+<body style="margin: 0;mso-line-height-rule: exactly;padding: 0;min-width: 100%;background-color: #ebebeb"><style type="text/css">
+body,.wrapper,.emb-editor-canvas{background-color:#ebebeb}.border{background-color:#dbdbdb}h1{color:#565656}.wrapper h1{}.wrapper h1{font-family:sans-serif}@media only screen and (min-width: 0){.wrapper h1{font-family:Avenir,sans-serif !important}}h1{}.one-col h1{line-height:42px}.two-col h1{line-height:32px}.three-col h1{line-height:26px}.wrapper .one-col-feature h1{line-height:58px}@media only screen and (max-width: 620px){h1{line-height:42px !important}}h2{color:#555}.wrapper h2{}.wrapper h2{font-family:Georgia,serif}h2{}.one-col h2{line-height:32px}.two-col h2{line-height:26px}.three-col h2{line-height:22px}.wrapper .one-col-feature h2{line-height:52px}@media only screen and (max-width: 620px){h2{line-height:32px !important}}h3{color:#555}.wrapper h3{}.wrapper h3{font-family:Georgia,serif}h3{}.one-col h3{line-height:26px}.two-col h3{line-height:22px}.three-col 
+h3{line-height:20px}.wrapper .one-col-feature h3{line-height:42px}@media only screen and (max-width: 620px){h3{line-height:26px !important}}p,ol,ul{color:#565656}.wrapper p,.wrapper ol,.wrapper ul{}.wrapper p,.wrapper ol,.wrapper ul{font-family:Georgia,serif}p,ol,ul{}.one-col p,.one-col ol,.one-col ul{line-height:25px;Margin-bottom:25px}.two-col p,.two-col ol,.two-col ul{line-height:23px;Margin-bottom:23px}.three-col p,.three-col ol,.three-col ul{line-height:21px;Margin-bottom:21px}.wrapper .one-col-feature p,.wrapper .one-col-feature ol,.wrapper .one-col-feature ul{line-height:32px}.one-col-feature blockquote p,.one-col-feature blockquote ol,.one-col-feature blockquote ul{line-height:50px}@media only screen and (max-width: 620px){p,ol,ul{line-height:25px !important;Margin-bottom:25px !important}}.image{color:#565656}.image{font-family:Georgia,serif}.wrapper a{color:#695b2f}.wrapper 
+a:hover{color:#463c1f !important}.wrapper .logo div{color:#41637e}.wrapper .logo div{font-family:sans-serif}@media only screen and (min-width: 0){.wrapper .logo div{font-family:Avenir,sans-serif !important}}.wrapper .logo div a{color:#41637e}.wrapper .logo div a:hover{color:#41637e !important}.wrapper .one-col-feature p a,.wrapper .one-col-feature ol a,.wrapper .one-col-feature ul a{border-bottom:1px solid #695b2f}.wrapper .one-col-feature p a:hover,.wrapper .one-col-feature ol a:hover,.wrapper .one-col-feature ul a:hover{color:#463c1f !important;border-bottom:1px solid #463c1f !important}.btn a{}.wrapper .btn a{}.wrapper .btn a{font-family:Georgia,serif}.wrapper .btn a{background-color:#41637e;color:#fff !important;outline-color:#41637e;text-shadow:0 1px 0 #3b5971}.wrapper .btn a:hover{background-color:#3b5971 !important;color:#fff !important;outline-color:#3b5971 !important}.preheader 
+.title,.preheader .webversion,.footer .padded{color:#999}.preheader .title,.preheader .webversion,.footer .padded{font-family:Georgia,serif}.preheader .title a,.preheader .webversion a,.footer .padded a{color:#999}.preheader .title a:hover,.preheader .webversion a:hover,.footer .padded a:hover{color:#737373 !important}.footer .social .divider{color:#dbdbdb}.footer .social .social-text,.footer .social a{color:#999}.wrapper .footer .social .social-text,.wrapper .footer .social a{}.wrapper .footer .social .social-text,.wrapper .footer .social a{font-family:Georgia,serif}.footer .social .social-text,.footer .social a{}.footer .social .social-text,.footer .social a{letter-spacing:0.05em}.footer .social .social-text:hover,.footer .social a:hover{color:#737373 !important}.image .border{background-color:#c8c8c8}.image-frame{background-color:#dadada}.image-background{background-color:#f7f7f7}
+</style>
+    <center class="wrapper" style="display: table;table-layout: fixed;width: 100%;min-width: 620px;-webkit-text-size-adjust: 100%;-ms-text-size-adjust: 100%;background-color: #ebebeb">
+		<table class="gmail" style="border-collapse: collapse;border-spacing: 0;width: 650px;min-width: 650px"><tbody><tr><td style="padding: 0;vertical-align: top;font-size: 1px;line-height: 1px">&nbsp;</td></tr></tbody></table>
+      <table class="preheader centered" style="border-collapse: collapse;border-spacing: 0;Margin-left: auto;Margin-right: auto">
+        <tbody><tr>
+          <td style="padding: 0;vertical-align: top">
+            <table style="border-collapse: collapse;border-spacing: 0;width: 602px">
+              <tbody><tr>
+                <td class="title" style="padding: 0;vertical-align: top;padding-top: 10px;padding-bottom: 12px;font-size: 12px;line-height: 21px;text-align: left;color: #999;font-family: Georgia,serif">Let us modernize your website.</td>
+                <td class="webversion" style="padding: 0;vertical-align: top;padding-top: 10px;padding-bottom: 12px;font-size: 12px;line-height: 21px;text-align: right;width: 300px;color: #999;font-family: Georgia,serif">
+                  No Images? <a style="text-decoration: none;transition: all .2s;color: #999;font-weight: bold" href="http://miamicodemonkeys.createsend1.com/t/i-e-jlhltjk-l-k/">Click here</a>
+                </td>
+              </tr>
+            </tbody></table>
+          </td>
+        </tr>
+      </tbody></table>
+      <table class="header centered" style="border-collapse: collapse;border-spacing: 0;Margin-left: auto;Margin-right: auto;width: 602px">
+        <tbody><tr><td class="border" style="padding: 0;vertical-align: top;font-size: 1px;line-height: 1px;background-color: #dbdbdb;width: 1px">&nbsp;</td></tr>
+        <tr><td class="logo" style="padding: 32px 0;vertical-align: top;mso-line-height-rule: at-least"><div class="logo-center" style="font-size: 26px;font-weight: 700;letter-spacing: -0.02em;line-height: 32px;color: #41637e;font-family: sans-serif;text-align: center" align="center" id="emb-email-header"><img style="border: 0;-ms-interpolation-mode: bicubic;display: block;Margin-left: auto;Margin-right: auto;max-width: 360px" src="https://i1.createsend1.com/ei/i/50/9C2/688/022525/csfinal/monkeyLogo.png" alt="" width="240" height="195"></div></td></tr>
+      </tbody></table>
+      
+          <table class="border" style="border-collapse: collapse;border-spacing: 0;font-size: 1px;line-height: 1px;background-color: #dbdbdb;Margin-left: auto;Margin-right: auto" width="602">
+            <tbody><tr><td style="padding: 0;vertical-align: top">&#8203;</td></tr>
+          </tbody></table>
+        
+          <table class="centered" style="border-collapse: collapse;border-spacing: 0;Margin-left: auto;Margin-right: auto">
+            <tbody><tr>
+              <td class="border" style="padding: 0;vertical-align: top;font-size: 1px;line-height: 1px;background-color: #dbdbdb;width: 1px">&#8203;</td>
+              <td style="padding: 0;vertical-align: top">
+                <table class="one-col" style="border-collapse: collapse;border-spacing: 0;Margin-left: auto;Margin-right: auto;width: 600px;background-color: #ffffff;font-size: 14px;table-layout: fixed">
+                  <tbody><tr>
+                    <td class="column" style="padding: 0;vertical-align: top;text-align: left">
+                      <div><div class="column-top" style="font-size: 32px;line-height: 32px">&nbsp;</div></div>
+                        <table class="contents" style="border-collapse: collapse;border-spacing: 0;table-layout: fixed;width: 100%">
+                          <tbody><tr>
+                            <td class="padded" style="padding: 0;vertical-align: top;padding-left: 32px;padding-right: 32px;word-break: break-word;word-wrap: break-word">
+                              
+            
+<h1 style="Margin-top: 0;color: #565656;font-weight: 700;font-size: 36px;Margin-bottom: 18px;font-family: sans-serif;line-height: 42px">Bring your website into 2015.</h1><p style="Margin-top: 0;color: #565656;font-family: Georgia,serif;font-size: 16px;line-height: 25px;Margin-bottom: 24px">Hi! &nbsp;I'm&nbsp;<a style="text-decoration: underline;transition: all .2s;color: #695b2f" data-emb-href-display="://www.facebook.com/kevin.ellerton" href="http://miamicodemonkeys.createsend1.com/t/i-l-jlhltjk-l-r/">Kevin</a>, one of the co-founders of the&nbsp;<a style="text-decoration: underline;transition: all .2s;color: #695b2f" data-emb-href-display="://miamicodemonkeys.com" href="http://miamicodemonkeys.createsend1.com/t/i-l-jlhltjk-l-y/"><strong style="font-weight: bold">Miami Code Monkeys</strong></a>. &nbsp;We're a small, newly 
+formed team of FIU's nerdiest coder-lumni. &nbsp;We may be young, but between the two of us we have over 35 years of web design and development experience. &nbsp;Since we're just beginning to expand into the greater Miami area, we're willing to give you <strong style="font-weight: bold">top-of-the-line web design for rock-bottom rates</strong>...&nbsp;in order to build up our portfolio, expand our referral network here in Miami, and help contribute to the local economy. This offer is only valid for South Florida based businesses, startups, groups and organizations.</p>
+          
+                            </td>
+                          </tr>
+                        </tbody></table>
+                      
+                      <div class="column-bottom" style="font-size: 8px;line-height: 8px">&nbsp;</div>
+                    </td>
+                  </tr>
+                </tbody></table>
+              </td>
+              <td class="border" style="padding: 0;vertical-align: top;font-size: 1px;line-height: 1px;background-color: #dbdbdb;width: 1px">&#8203;</td>
+            </tr>
+          </tbody></table>
+        
+          <table class="border" style="border-collapse: collapse;border-spacing: 0;font-size: 1px;line-height: 1px;background-color: #dbdbdb;Margin-left: auto;Margin-right: auto" width="602">
+            <tbody><tr class="border" style="font-size: 1px;line-height: 1px;background-color: #e9e9e9;height: 1px">
+              <td class="border" style="padding: 0;vertical-align: top;font-size: 1px;line-height: 1px;background-color: #dbdbdb;width: 1px">&#8203;</td>
+              <td style="padding: 0;vertical-align: top;line-height: 1px">&#8203;</td>
+              <td class="border" style="padding: 0;vertical-align: top;font-size: 1px;line-height: 1px;background-color: #dbdbdb;width: 1px">&#8203;</td>
+            </tr>
+          </tbody></table>
+        
+          <table class="centered" style="border-collapse: collapse;border-spacing: 0;Margin-left: auto;Margin-right: auto">
+            <tbody><tr>
+              <td class="border" style="padding: 0;vertical-align: top;font-size: 1px;line-height: 1px;background-color: #dbdbdb;width: 1px">&#8203;</td>
+              <td style="padding: 0;vertical-align: top">
+                <table class="one-col-feature" style="border-collapse: collapse;border-spacing: 0;background-color: #ffffff;font-size: 14px;table-layout: fixed;Margin-left: auto;Margin-right: auto">
+                  <tbody><tr>
+                    <td class="column" style="padding: 0;vertical-align: top;text-align: center;width: 600px">
+                      <div><div class="column-top" style="font-size: 36px;line-height: 36px">&nbsp;</div></div>
+                        <table class="contents" style="border-collapse: collapse;border-spacing: 0;table-layout: fixed;width: 100%">
+                          <tbody><tr>
+                            <td class="padded" style="padding: 0;vertical-align: top;padding-left: 32px;padding-right: 32px;word-break: break-word;word-wrap: break-word">
+                              
+            <h1 style="Margin-top: 0;color: #565656;font-weight: normal;font-size: 52px;Margin-bottom: 32px;font-family: sans-serif;text-align: center;line-height: 58px">MEET THE MONKEYS</h1>
+          
+                            </td>
+                          </tr>
+                        </tbody></table>
+                      
+                      <div class="column-bottom" style="font-size: 4px;line-height: 4px">&nbsp;</div>
+                    </td>
+                  </tr>
+                </tbody></table>
+              </td>
+              <td class="border" style="padding: 0;vertical-align: top;font-size: 1px;line-height: 1px;background-color: #dbdbdb;width: 1px">&#8203;</td>
+            </tr>
+          </tbody></table>
+        
+          <table class="border" style="border-collapse: collapse;border-spacing: 0;font-size: 1px;line-height: 1px;background-color: #dbdbdb;Margin-left: auto;Margin-right: auto" width="602">
+            <tbody><tr class="border" style="font-size: 1px;line-height: 1px;background-color: #e9e9e9;height: 1px">
+              <td class="border" style="padding: 0;vertical-align: top;font-size: 1px;line-height: 1px;background-color: #dbdbdb;width: 1px">&#8203;</td>
+              <td style="padding: 0;vertical-align: top;line-height: 1px">&#8203;</td>
+              <td class="border" style="padding: 0;vertical-align: top;font-size: 1px;line-height: 1px;background-color: #dbdbdb;width: 1px">&#8203;</td>
+            </tr>
+          </tbody></table>
+        
+          <table class="centered" style="border-collapse: collapse;border-spacing: 0;Margin-left: auto;Margin-right: auto">
+            <tbody><tr>
+              <td class="border" style="padding: 0;vertical-align: top;font-size: 1px;line-height: 1px;background-color: #dbdbdb;width: 1px">&#8203;</td>
+              <td style="padding: 0;vertical-align: top">
+                <table class="two-col gray" style="border-collapse: collapse;border-spacing: 0;Margin-left: auto;Margin-right: auto;width: 600px;background-color: #f7f7f7;font-size: 14px;table-layout: fixed">
+                  <tbody><tr>
+                    <td class="column first" style="padding: 0;vertical-align: top;text-align: left;width: 300px">
+                      <div><div class="column-top" style="font-size: 32px;line-height: 32px">&nbsp;</div></div>
+                        <table class="contents" style="border-collapse: collapse;border-spacing: 0;table-layout: fixed;width: 100%">
+                          <tbody><tr>
+                            <td class="padded" style="padding: 0;vertical-align: top;padding-left: 32px;padding-right: 32px;word-break: break-word;word-wrap: break-word">
+                              
+            <h1 style="Margin-top: 0;color: #565656;font-weight: 700;font-size: 26px;Margin-bottom: 16px;font-family: sans-serif;line-height: 32px">Victor Moreno</h1>
+            <p style="Margin-top: 0;color: #565656;font-family: Georgia,serif;font-size: 14px;line-height: 23px;Margin-bottom: 23px">Victor has a degree in Computer Science from FIU. &nbsp;He is currently serving as the Computer Science teacher and IT manager for Columbus HS in Westchester. &nbsp;He lives in Miami with his new wife Mari.</p></td>
+                          </tr>
+                        </tbody></table>
+                      
+              <div class="image" style="font-size: 12px;Margin-bottom: 23px;mso-line-height-rule: at-least;color: #565656;font-family: Georgia,serif" align="center">
+                <img class="gnd-corner-image gnd-corner-image-center gnd-corner-image-bottom" style="border: 0;-ms-interpolation-mode: bicubic;display: block;max-width: 480px" src="https://i1.createsend1.com/ei/i/50/9C2/688/022525/csfinal/189035_10150928825159567_728263459_n1.jpg" alt="" width="300" height="200">
+              </div>
+            
+                      <div class="column-bottom" style="font-size: 9px;line-height: 9px">&nbsp;</div>
+                    </td>
+                    <td class="column second" style="padding: 0;vertical-align: top;text-align: left;width: 300px">
+                      
+              <div class="image" style="font-size: 12px;Margin-bottom: 23px;mso-line-height-rule: at-least;color: #565656;font-family: Georgia,serif" align="center">
+                <img class="gnd-corner-image gnd-corner-image-center gnd-corner-image-top" style="border: 0;-ms-interpolation-mode: bicubic;display: block;max-width: 480px" src="https://i2.createsend1.com/ei/i/50/9C2/688/022525/csfinal/02.jpg" alt="" width="300" height="203">
+              </div>
+            
+                        <table class="contents" style="border-collapse: collapse;border-spacing: 0;table-layout: fixed;width: 100%">
+                          <tbody><tr>
+                            <td class="padded" style="padding: 0;vertical-align: top;padding-left: 32px;padding-right: 32px;word-break: break-word;word-wrap: break-word">
+                              
+            <h1 style="Margin-top: 0;color: #565656;font-weight: 700;font-size: 26px;Margin-bottom: 16px;font-family: sans-serif;line-height: 32px">Kevin Ellerton</h1><p style="Margin-top: 0;color: #565656;font-family: Georgia,serif;font-size: 14px;line-height: 23px;Margin-bottom: 23px">Kevin got his BA at Stony Brook University, and then went to FIU to do a post-bach survey of the sciences. &nbsp;Kevin spends his time meditating, coding, and enjoying the ocean! &nbsp;He lives in Miami Beach with his girlfriend Jovanna.</p>
+          
+                            </td>
+                          </tr>
+                        </tbody></table>
+                      
+                      <div class="column-bottom" style="font-size: 9px;line-height: 9px">&nbsp;</div>
+                    </td>
+                  </tr>
+                </tbody></table>
+              </td>
+              <td class="border" style="padding: 0;vertical-align: top;font-size: 1px;line-height: 1px;background-color: #dbdbdb;width: 1px">&#8203;</td>
+            </tr>
+          </tbody></table>
+        
+          <table class="border" style="border-collapse: collapse;border-spacing: 0;font-size: 1px;line-height: 1px;background-color: #dbdbdb;Margin-left: auto;Margin-right: auto" width="602">
+            <tbody><tr class="border" style="font-size: 1px;line-height: 1px;background-color: #e9e9e9;height: 1px">
+              <td class="border" style="padding: 0;vertical-align: top;font-size: 1px;line-height: 1px;background-color: #dbdbdb;width: 1px">&#8203;</td>
+              <td style="padding: 0;vertical-align: top;line-height: 1px">&#8203;</td>
+              <td class="border" style="padding: 0;vertical-align: top;font-size: 1px;line-height: 1px;background-color: #dbdbdb;width: 1px">&#8203;</td>
+            </tr>
+          </tbody></table>
+        
+          <table class="centered" style="border-collapse: collapse;border-spacing: 0;Margin-left: auto;Margin-right: auto">
+            <tbody><tr>
+              <td class="border" style="padding: 0;vertical-align: top;font-size: 1px;line-height: 1px;background-color: #dbdbdb;width: 1px">&#8203;</td>
+              <td style="padding: 0;vertical-align: top">
+                <table class="one-col-feature" style="border-collapse: collapse;border-spacing: 0;background-color: #ffffff;font-size: 14px;table-layout: fixed;Margin-left: auto;Margin-right: auto">
+                  <tbody><tr>
+                    <td class="column" style="padding: 0;vertical-align: top;text-align: center;width: 600px">
+                      <div><div class="column-top" style="font-size: 36px;line-height: 36px">&nbsp;</div></div>
+                        <table class="contents" style="border-collapse: collapse;border-spacing: 0;table-layout: fixed;width: 100%">
+                          <tbody><tr>
+                            <td class="padded" style="padding: 0;vertical-align: top;padding-left: 32px;padding-right: 32px;word-break: break-word;word-wrap: break-word">
+                              
+            <h1 style="Margin-top: 0;color: #565656;font-weight: normal;font-size: 52px;Margin-bottom: 32px;font-family: sans-serif;text-align: center;line-height: 58px">WHY CONTACT YOU</h1>
+          
+                            </td>
+                          </tr>
+                        </tbody></table>
+                      
+                      <div class="column-bottom" style="font-size: 4px;line-height: 4px">&nbsp;</div>
+                    </td>
+                  </tr>
+                </tbody></table>
+              </td>
+              <td class="border" style="padding: 0;vertical-align: top;font-size: 1px;line-height: 1px;background-color: #dbdbdb;width: 1px">&#8203;</td>
+            </tr>
+          </tbody></table>
+        
+          <table class="border" style="border-collapse: collapse;border-spacing: 0;font-size: 1px;line-height: 1px;background-color: #dbdbdb;Margin-left: auto;Margin-right: auto" width="602">
+            <tbody><tr class="border" style="font-size: 1px;line-height: 1px;background-color: #e9e9e9;height: 1px">
+              <td class="border" style="padding: 0;vertical-align: top;font-size: 1px;line-height: 1px;background-color: #dbdbdb;width: 1px">&#8203;</td>
+              <td style="padding: 0;vertical-align: top;line-height: 1px">&#8203;</td>
+              <td class="border" style="padding: 0;vertical-align: top;font-size: 1px;line-height: 1px;background-color: #dbdbdb;width: 1px">&#8203;</td>
+            </tr>
+          </tbody></table>
+        
+          <table class="centered" style="border-collapse: collapse;border-spacing: 0;Margin-left: auto;Margin-right: auto">
+            <tbody><tr>
+              <td class="border" style="padding: 0;vertical-align: top;font-size: 1px;line-height: 1px;background-color: #dbdbdb;width: 1px">&#8203;</td>
+              <td style="padding: 0;vertical-align: top">
+                <table class="one-col" style="border-collapse: collapse;border-spacing: 0;Margin-left: auto;Margin-right: auto;width: 600px;background-color: #ffffff;font-size: 14px;table-layout: fixed">
+                  <tbody><tr>
+                    <td class="column" style="padding: 0;vertical-align: top;text-align: left">
+                      <div><div class="column-top" style="font-size: 32px;line-height: 32px">&nbsp;</div></div>
+                        <table class="contents" style="border-collapse: collapse;border-spacing: 0;table-layout: fixed;width: 100%">
+                          <tbody><tr>
+                            <td class="padded" style="padding: 0;vertical-align: top;padding-left: 32px;padding-right: 32px;word-break: break-word;word-wrap: break-word"><h1 style="Margin-top: 0;color: #565656;font-weight: 700;font-size: 36px;Margin-bottom: 18px;font-family: sans-serif;line-height: 42px">Because you need help.</h1>
+								<p style="Margin-top: 0;color: #565656;font-family: Georgia,serif;font-size: 16px;line-height: 25px;Margin-bottom: 25px">You posted an ad on craigslist that had some magical keywords that we interpreted to mean you need our web development services. You're about to get bombarded by dozens of emails from terrible web designers who will jam your content into a template, charge you $500, and call it a day. </p>
+								<p style="Margin-top: 0;color: #565656;font-family: Georgia,serif;font-size: 16px;line-height: 25px;Margin-bottom: 25px">Having a cheap-looking website is not good for your image, your company's reputation, or your 
+									bottom line. Let us help you develop your content to improve your web marketing ROI. Let us give you a memorable site that doesn't bore people in 2.5 seconds. Let us showcase modern technologies and slick animations on your site. Let us do all of this for the same cheap price as the guys who were just going to copy-paste your content into a template. </p></td>
+                          </tr>
+                        </tbody></table>
+                      
+                      <div class="column-bottom" style="font-size: 8px;line-height: 8px">&nbsp;</div>
+                    </td>
+                  </tr>
+                </tbody></table>
+              </td>
+              <td class="border" style="padding: 0;vertical-align: top;font-size: 1px;line-height: 1px;background-color: #dbdbdb;width: 1px">&#8203;</td>
+            </tr>
+          </tbody></table>
+        
+          <table class="border" style="border-collapse: collapse;border-spacing: 0;font-size: 1px;line-height: 1px;background-color: #dbdbdb;Margin-left: auto;Margin-right: auto" width="602">
+            <tbody><tr class="border" style="font-size: 1px;line-height: 1px;background-color: #e9e9e9;height: 1px">
+              <td class="border" style="padding: 0;vertical-align: top;font-size: 1px;line-height: 1px;background-color: #dbdbdb;width: 1px">&#8203;</td>
+              <td style="padding: 0;vertical-align: top;line-height: 1px">&#8203;</td>
+              <td class="border" style="padding: 0;vertical-align: top;font-size: 1px;line-height: 1px;background-color: #dbdbdb;width: 1px">&#8203;</td>
+            </tr>
+          </tbody></table>
+        
+          <table class="centered" style="border-collapse: collapse;border-spacing: 0;Margin-left: auto;Margin-right: auto">
+            <tbody><tr>
+              <td class="border" style="padding: 0;vertical-align: top;font-size: 1px;line-height: 1px;background-color: #dbdbdb;width: 1px">&#8203;</td>
+              <td style="padding: 0;vertical-align: top">
+                <table class="one-col-feature" style="border-collapse: collapse;border-spacing: 0;background-color: #ffffff;font-size: 14px;table-layout: fixed;Margin-left: auto;Margin-right: auto">
+                  <tbody><tr>
+                    <td class="column" style="padding: 0;vertical-align: top;text-align: center;width: 600px">
+                      <div><div class="column-top" style="font-size: 36px;line-height: 36px">&nbsp;</div></div>
+                        <table class="contents" style="border-collapse: collapse;border-spacing: 0;table-layout: fixed;width: 100%">
+                          <tbody><tr>
+                            <td class="padded" style="padding: 0;vertical-align: top;padding-left: 32px;padding-right: 32px;word-break: break-word;word-wrap: break-word">
+                              
+            <h1 style="Margin-top: 0;color: #565656;font-weight: normal;font-size: 52px;Margin-bottom: 32px;font-family: sans-serif;text-align: center;line-height: 58px">OUR MISSION</h1>
+          
+                            </td>
+                          </tr>
+                        </tbody></table>
+                      
+                      <div class="column-bottom" style="font-size: 4px;line-height: 4px">&nbsp;</div>
+                    </td>
+                  </tr>
+                </tbody></table>
+              </td>
+              <td class="border" style="padding: 0;vertical-align: top;font-size: 1px;line-height: 1px;background-color: #dbdbdb;width: 1px">&#8203;</td>
+            </tr>
+          </tbody></table>
+        
+          <table class="border" style="border-collapse: collapse;border-spacing: 0;font-size: 1px;line-height: 1px;background-color: #dbdbdb;Margin-left: auto;Margin-right: auto" width="602">
+            <tbody><tr class="border" style="font-size: 1px;line-height: 1px;background-color: #e9e9e9;height: 1px">
+              <td class="border" style="padding: 0;vertical-align: top;font-size: 1px;line-height: 1px;background-color: #dbdbdb;width: 1px">&#8203;</td>
+              <td style="padding: 0;vertical-align: top;line-height: 1px">&#8203;</td>
+              <td class="border" style="padding: 0;vertical-align: top;font-size: 1px;line-height: 1px;background-color: #dbdbdb;width: 1px">&#8203;</td>
+            </tr>
+          </tbody></table>
+        
+          <table class="centered" style="border-collapse: collapse;border-spacing: 0;Margin-left: auto;Margin-right: auto">
+            <tbody><tr>
+              <td class="border" style="padding: 0;vertical-align: top;font-size: 1px;line-height: 1px;background-color: #dbdbdb;width: 1px">&#8203;</td>
+              <td style="padding: 0;vertical-align: top">
+                <table class="two-col" style="border-collapse: collapse;border-spacing: 0;Margin-left: auto;Margin-right: auto;width: 600px;background-color: #ffffff;font-size: 14px;table-layout: fixed">
+                  <tbody><tr>
+                    <td class="column first" style="padding: 0;vertical-align: top;text-align: left;width: 300px">
+                      
+              <div class="image" style="font-size: 12px;Margin-bottom: 23px;mso-line-height-rule: at-least;color: #565656;font-family: Georgia,serif" align="center">
+                <img class="gnd-corner-image gnd-corner-image-center gnd-corner-image-top gnd-corner-image-bottom" style="border: 0;-ms-interpolation-mode: bicubic;display: block;max-width: 480px" src="https://i3.createsend1.com/ei/i/50/9C2/688/022525/csfinal/IMG_8570copy2.JPG" alt="" width="300" height="400">
+              </div>
+            
+                      <div class="column-bottom" style="font-size: 9px;line-height: 9px">&nbsp;</div>
+                    </td>
+                    <td class="column second" style="padding: 0;vertical-align: top;text-align: left;width: 300px">
+                      <div><div class="column-top" style="font-size: 32px;line-height: 32px">&nbsp;</div></div>
+                        <table class="contents" style="border-collapse: collapse;border-spacing: 0;table-layout: fixed;width: 100%">
+                          <tbody><tr>
+                            <td class="padded" style="padding: 0;vertical-align: top;padding-left: 32px;padding-right: 32px;word-break: break-word;word-wrap: break-word">
+                              
+            <h1 style="Margin-top: 0;color: #565656;font-weight: 700;font-size: 26px;Margin-bottom: 16px;font-family: sans-serif;line-height: 32px">Miami first.</h1><p style="Margin-top: 0;color: #565656;font-family: Georgia,serif;font-size: 14px;line-height: 23px;Margin-bottom: 23px">Our mission is to help small business owners in the Miami area, by giving them access to high-quality web development services at a fraction of the prices of the bloated, overpriced firms in Brickell and SoBe.</p><p style="Margin-top: 0;color: #565656;font-family: Georgia,serif;font-size: 14px;line-height: 23px;Margin-bottom: 23px">We run a lean, cloud based business. &nbsp;We don't have an expensive sales team or a fancy office space... so we can charge much less than the big corporate website mills, while still delivering better services :-)</p>
+          
+                            </td>
+                          </tr>
+                        </tbody></table>
+                      
+                      <div class="column-bottom" style="font-size: 9px;line-height: 9px">&nbsp;</div>
+                    </td>
+                  </tr>
+                </tbody></table>
+              </td>
+              <td class="border" style="padding: 0;vertical-align: top;font-size: 1px;line-height: 1px;background-color: #dbdbdb;width: 1px">&#8203;</td>
+            </tr>
+          </tbody></table>
+        
+          <table class="border" style="border-collapse: collapse;border-spacing: 0;font-size: 1px;line-height: 1px;background-color: #dbdbdb;Margin-left: auto;Margin-right: auto" width="602">
+            <tbody><tr class="border" style="font-size: 1px;line-height: 1px;background-color: #e9e9e9;height: 1px">
+              <td class="border" style="padding: 0;vertical-align: top;font-size: 1px;line-height: 1px;background-color: #dbdbdb;width: 1px">&#8203;</td>
+              <td style="padding: 0;vertical-align: top;line-height: 1px">&#8203;</td>
+              <td class="border" style="padding: 0;vertical-align: top;font-size: 1px;line-height: 1px;background-color: #dbdbdb;width: 1px">&#8203;</td>
+            </tr>
+          </tbody></table>
+        
+          <table class="centered" style="border-collapse: collapse;border-spacing: 0;Margin-left: auto;Margin-right: auto">
+            <tbody><tr>
+              <td class="border" style="padding: 0;vertical-align: top;font-size: 1px;line-height: 1px;background-color: #dbdbdb;width: 1px">&#8203;</td>
+              <td style="padding: 0;vertical-align: top">
+                <table class="one-col-feature" style="border-collapse: collapse;border-spacing: 0;background-color: #ffffff;font-size: 14px;table-layout: fixed;Margin-left: auto;Margin-right: auto">
+                  <tbody><tr>
+                    <td class="column" style="padding: 0;vertical-align: top;text-align: center;width: 600px">
+                      <div><div class="column-top" style="font-size: 36px;line-height: 36px">&nbsp;</div></div>
+                        <table class="contents" style="border-collapse: collapse;border-spacing: 0;table-layout: fixed;width: 100%">
+                          <tbody><tr>
+                            <td class="padded" style="padding: 0;vertical-align: top;padding-left: 32px;padding-right: 32px;word-break: break-word;word-wrap: break-word">
+                              
+            <div style="height:20px">&nbsp;</div>
+          
+                            </td>
+                          </tr>
+                        </tbody></table>
+                      
+                        <table class="contents" style="border-collapse: collapse;border-spacing: 0;table-layout: fixed;width: 100%">
+                          <tbody><tr>
+                            <td class="padded" style="padding: 0;vertical-align: top;padding-left: 32px;padding-right: 32px;word-break: break-word;word-wrap: break-word">
+                              
+            <h1 style="Margin-top: 0;color: #565656;font-weight: normal;font-size: 52px;Margin-bottom: 32px;font-family: sans-serif;text-align: center;line-height: 58px">OUR PORTFOLIO</h1>
+          
+                            </td>
+                          </tr>
+                        </tbody></table>
+                      
+                      <div class="column-bottom" style="font-size: 4px;line-height: 4px">&nbsp;</div>
+                    </td>
+                  </tr>
+                </tbody></table>
+              </td>
+              <td class="border" style="padding: 0;vertical-align: top;font-size: 1px;line-height: 1px;background-color: #dbdbdb;width: 1px">&#8203;</td>
+            </tr>
+          </tbody></table>
+        
+          <table class="border" style="border-collapse: collapse;border-spacing: 0;font-size: 1px;line-height: 1px;background-color: #dbdbdb;Margin-left: auto;Margin-right: auto" width="602">
+            <tbody><tr class="border" style="font-size: 1px;line-height: 1px;background-color: #e9e9e9;height: 1px">
+              <td class="border" style="padding: 0;vertical-align: top;font-size: 1px;line-height: 1px;background-color: #dbdbdb;width: 1px">&#8203;</td>
+              <td style="padding: 0;vertical-align: top;line-height: 1px">&#8203;</td>
+              <td class="border" style="padding: 0;vertical-align: top;font-size: 1px;line-height: 1px;background-color: #dbdbdb;width: 1px">&#8203;</td>
+            </tr>
+          </tbody></table>
+        
+          <table class="centered" style="border-collapse: collapse;border-spacing: 0;Margin-left: auto;Margin-right: auto">
+            <tbody><tr>
+              <td class="border" style="padding: 0;vertical-align: top;font-size: 1px;line-height: 1px;background-color: #dbdbdb;width: 1px">&#8203;</td>
+              <td style="padding: 0;vertical-align: top">
+                <table class="three-col" style="border-collapse: collapse;border-spacing: 0;Margin-left: auto;Margin-right: auto;width: 600px;background-color: #ffffff;font-size: 14px;table-layout: fixed">
+                  <tbody><tr>
+                    <td class="column first" style="padding: 0;vertical-align: top;text-align: left;width: 200px">
+                      
+              <div class="image" style="font-size: 12px;Margin-bottom: 21px;mso-line-height-rule: at-least;color: #565656;font-family: Georgia,serif" align="center">
+                <img class="gnd-corner-image gnd-corner-image-center gnd-corner-image-top" style="border: 0;-ms-interpolation-mode: bicubic;display: block;max-width: 480px" src="https://i4.createsend1.com/ei/i/50/9C2/688/022525/csfinal/ScreenShot2015-05-25at8.21.43PM1.png" alt="" width="200" height="108">
+              </div>
+            
+                        <table class="contents" style="border-collapse: collapse;border-spacing: 0;table-layout: fixed;width: 100%">
+                          <tbody><tr>
+                            <td class="padded" style="padding: 0;vertical-align: top;padding-left: 32px;padding-right: 16px;word-break: break-word;word-wrap: break-word">
+                              
+            <h2 style="Margin-top: 0;color: #555;font-style: italic;font-weight: normal;font-size: 16px;line-height: 22px;Margin-bottom: 14px;font-family: Georgia,serif"><a style="text-decoration: none;transition: all .2s;color: #695b2f" data-emb-href-display="happify.org/chesslessonsNEW03" href="http://miamicodemonkeys.createsend1.com/t/i-l-jlhltjk-l-j/">Chesslessons.com</a></h2><p style="Margin-top: 0;color: #565656;font-family: Georgia,serif;font-size: 12px;line-height: 21px;Margin-bottom: 21px">A work still in progress, chesslessons.com is one of our most complex hand-coded projects. &nbsp;We are not only designing a beautiful front-end, but also coding chess games and other software to create a robust user experience for this website.</p>
+          
+                            </td>
+                          </tr>
+                        </tbody></table>
+                      
+                      <div class="column-bottom" style="font-size: 11px;line-height: 11px">&nbsp;</div>
+                    </td>
+                    <td class="column second" style="padding: 0;vertical-align: top;text-align: left;width: 200px">
+                      
+              <div class="image" style="font-size: 12px;Margin-bottom: 21px;mso-line-height-rule: at-least;color: #565656;font-family: Georgia,serif" align="center">
+                <img class="gnd-corner-image gnd-corner-image-center gnd-corner-image-top" style="border: 0;-ms-interpolation-mode: bicubic;display: block;max-width: 480px" src="https://i5.createsend1.com/ei/i/50/9C2/688/022525/csfinal/ScreenShot2015-05-25at8.20.22PM1.png" alt="" width="200" height="108">
+              </div>
+            
+                        <table class="contents" style="border-collapse: collapse;border-spacing: 0;table-layout: fixed;width: 100%">
+                          <tbody><tr>
+                            <td class="padded" style="padding: 0;vertical-align: top;padding-left: 24px;padding-right: 24px;word-break: break-word;word-wrap: break-word">
+                              
+            <h2 style="Margin-top: 0;color: #555;font-style: italic;font-weight: normal;font-size: 16px;line-height: 22px;Margin-bottom: 14px;font-family: Georgia,serif"><a style="text-decoration: none;transition: all .2s;color: #695b2f" data-emb-href-display="meditationmag.com" href="http://miamicodemonkeys.createsend1.com/t/i-l-jlhltjk-l-t/">Meditationmag.com</a></h2><p style="Margin-top: 0;color: #565656;font-family: Georgia,serif;font-size: 12px;line-height: 21px;Margin-bottom: 21px">Meditation Magazine, one of Kevin's pet projects, is a great example of a content-based Wordpress site. &nbsp;This kind of site looks great and can be made quite cheaply on a Wordpress platform. &nbsp;With this kind of site, you have the power to post articles whenever you want!</p>
+          
+                            </td>
+                          </tr>
+                        </tbody></table>
+                      
+                      <div class="column-bottom" style="font-size: 11px;line-height: 11px">&nbsp;</div>
+                    </td>
+                    <td class="column third" style="padding: 0;vertical-align: top;text-align: left;width: 200px">
+                      
+              <div class="image" style="font-size: 12px;Margin-bottom: 21px;mso-line-height-rule: at-least;color: #565656;font-family: Georgia,serif" align="center">
+                <img class="gnd-corner-image gnd-corner-image-center gnd-corner-image-top" style="border: 0;-ms-interpolation-mode: bicubic;display: block;max-width: 480px" src="https://i6.createsend1.com/ei/i/50/9C2/688/022525/csfinal/ScreenShot2015-05-25at8.21.05PM.png" alt="" width="200" height="100">
+              </div>
+            
+                        <table class="contents" style="border-collapse: collapse;border-spacing: 0;table-layout: fixed;width: 100%">
+                          <tbody><tr>
+                            <td class="padded" style="padding: 0;vertical-align: top;padding-left: 16px;padding-right: 32px;word-break: break-word;word-wrap: break-word">
+                              
+            <h2 style="Margin-top: 0;color: #555;font-style: italic;font-weight: normal;font-size: 16px;line-height: 22px;Margin-bottom: 14px;font-family: Georgia,serif"><a style="text-decoration: none;transition: all .2s;color: #695b2f" data-emb-href-display="varjangroup.com" href="http://miamicodemonkeys.createsend1.com/t/i-l-jlhltjk-l-i/">Varjangroup.com</a></h2><p style="Margin-top: 0;color: #565656;font-family: Georgia,serif;font-size: 12px;line-height: 21px;Margin-bottom: 21px">This is a beautiful example of a custom-coded, Wordpress-based corporate website for a real estate company in New York. &nbsp;This client came from a referral from Kevin's old business partner in New York, and the clients have been very satisfied with the results.</p>
+          
+                            </td>
+                          </tr>
+                        </tbody></table>
+                      
+                      <div class="column-bottom" style="font-size: 11px;line-height: 11px">&nbsp;</div>
+                    </td>
+                  </tr>
+                </tbody></table>
+              </td>
+              <td class="border" style="padding: 0;vertical-align: top;font-size: 1px;line-height: 1px;background-color: #dbdbdb;width: 1px">&#8203;</td>
+            </tr>
+          </tbody></table>
+        
+          <table class="border" style="border-collapse: collapse;border-spacing: 0;font-size: 1px;line-height: 1px;background-color: #dbdbdb;Margin-left: auto;Margin-right: auto" width="602">
+            <tbody><tr class="border" style="font-size: 1px;line-height: 1px;background-color: #e9e9e9;height: 1px">
+              <td class="border" style="padding: 0;vertical-align: top;font-size: 1px;line-height: 1px;background-color: #dbdbdb;width: 1px">&#8203;</td>
+              <td style="padding: 0;vertical-align: top;line-height: 1px">&#8203;</td>
+              <td class="border" style="padding: 0;vertical-align: top;font-size: 1px;line-height: 1px;background-color: #dbdbdb;width: 1px">&#8203;</td>
+            </tr>
+          </tbody></table>
+        
+          <table class="centered" style="border-collapse: collapse;border-spacing: 0;Margin-left: auto;Margin-right: auto">
+            <tbody><tr>
+              <td class="border" style="padding: 0;vertical-align: top;font-size: 1px;line-height: 1px;background-color: #dbdbdb;width: 1px">&#8203;</td>
+              <td style="padding: 0;vertical-align: top">
+                <table class="one-col-feature" style="border-collapse: collapse;border-spacing: 0;background-color: #ffffff;font-size: 14px;table-layout: fixed;Margin-left: auto;Margin-right: auto">
+                  <tbody><tr>
+                    <td class="column" style="padding: 0;vertical-align: top;text-align: center;width: 600px">
+                      <div><div class="column-top" style="font-size: 36px;line-height: 36px">&nbsp;</div></div>
+                        <table class="contents" style="border-collapse: collapse;border-spacing: 0;table-layout: fixed;width: 100%">
+                          <tbody><tr>
+                            <td class="padded" style="padding: 0;vertical-align: top;padding-left: 32px;padding-right: 32px;word-break: break-word;word-wrap: break-word">
+                              
+            <p style="Margin-top: 0;color: #565656;font-family: Georgia,serif;font-size: 21px;line-height: 32px;Margin-bottom: 32px;text-align: center">Full portfolio:&nbsp;<a style="text-decoration: none;transition: all .2s;color: #695b2f;border-bottom: 1px solid #695b2f" data-emb-href-display="miamicodemonkeys.com/portfolio" href="http://miamicodemonkeys.createsend1.com/t/i-l-jlhltjk-l-d/">miamicodemonkeys.com/portfolio</a>.</p>
+          
+                            </td>
+                          </tr>
+                        </tbody></table>
+                      
+                      <div class="column-bottom" style="font-size: 4px;line-height: 4px">&nbsp;</div>
+                    </td>
+                  </tr>
+                </tbody></table>
+              </td>
+              <td class="border" style="padding: 0;vertical-align: top;font-size: 1px;line-height: 1px;background-color: #dbdbdb;width: 1px">&#8203;</td>
+            </tr>
+          </tbody></table>
+        
+          <table class="border" style="border-collapse: collapse;border-spacing: 0;font-size: 1px;line-height: 1px;background-color: #dbdbdb;Margin-left: auto;Margin-right: auto" width="602">
+            <tbody><tr class="border" style="font-size: 1px;line-height: 1px;background-color: #e9e9e9;height: 1px">
+              <td class="border" style="padding: 0;vertical-align: top;font-size: 1px;line-height: 1px;background-color: #dbdbdb;width: 1px">&#8203;</td>
+              <td style="padding: 0;vertical-align: top;line-height: 1px">&#8203;</td>
+              <td class="border" style="padding: 0;vertical-align: top;font-size: 1px;line-height: 1px;background-color: #dbdbdb;width: 1px">&#8203;</td>
+            </tr>
+          </tbody></table>
+        
+          <table class="centered" style="border-collapse: collapse;border-spacing: 0;Margin-left: auto;Margin-right: auto">
+            <tbody><tr>
+              <td class="border" style="padding: 0;vertical-align: top;font-size: 1px;line-height: 1px;background-color: #dbdbdb;width: 1px">&#8203;</td>
+              <td style="padding: 0;vertical-align: top">
+                <table class="one-col" style="border-collapse: collapse;border-spacing: 0;Margin-left: auto;Margin-right: auto;width: 600px;background-color: #ffffff;font-size: 14px;table-layout: fixed">
+                  <tbody><tr>
+                    <td class="column" style="padding: 0;vertical-align: top;text-align: left">
+                      <div><div class="column-top" style="font-size: 32px;line-height: 32px">&nbsp;</div></div>
+                        <table class="contents" style="border-collapse: collapse;border-spacing: 0;table-layout: fixed;width: 100%">
+                          <tbody><tr>
+                            <td class="padded" style="padding: 0;vertical-align: top;padding-left: 32px;padding-right: 32px;word-break: break-word;word-wrap: break-word">
+                              
+            
+<h1 style="Margin-top: 0;color: #565656;font-weight: 700;font-size: 36px;Margin-bottom: 18px;font-family: sans-serif;line-height: 42px">Be one of the first 10 to respond... get 50% off!!!</h1><p style="Margin-top: 0;color: #565656;font-family: Georgia,serif;font-size: 16px;line-height: 25px;Margin-bottom: 25px"><strong style="font-weight: bold">A wise monkey once said</strong>,&nbsp;<em>having an old website is like flinging poop at your customers</em>. &nbsp;A cutting-edge website, on the other hand, tells your customers that you are still fresh, modern, and relevant to the increasingly tech-savvy world of 2015.</p><p style="Margin-top: 0;color: #565656;font-family: Georgia,serif;font-size: 16px;line-height: 25px;Margin-bottom: 25px">Until now, all of our clients have come to us on a purely referral basis... we haven't done any marketing at all so far. &nbsp;Now that we're expanding to 
+the greater Miami area, we're reaching out to a select group of Miami small business owners; this is the first real marketing email we're sending out.</p><p style="Margin-top: 0;color: #565656;font-family: Georgia,serif;font-size: 16px;line-height: 25px;Margin-bottom: 25px">The first 10 South Florida clients we connect with through this email promotion will get 50% off from our normal rates. &nbsp;We're doing this so that we can build our client base, our portfolio, and our referral network here in Miami.</p><p style="Margin-top: 0;color: #565656;font-family: Georgia,serif;font-size: 16px;line-height: 25px;Margin-bottom: 25px">Contact us right now to discuss this rare opportunity to save thousands of dollars on a cutting edge renovation of your website. &nbsp;SMS/email preferred.</p><p style="Margin-top: 0;color: #565656;font-family: Georgia,serif;font-size: 16px;line-height: 
+25px;Margin-bottom: 25px">Miami Code Monkeys | 1-786-252-7355 | coders@miamicodemonkeys.com</p>
+          
+                            </td>
+                          </tr>
+                        </tbody></table>
+                      
+                        <table class="contents" style="border-collapse: collapse;border-spacing: 0;table-layout: fixed;width: 100%">
+                          <tbody><tr>
+                            <td class="padded" style="padding: 0;vertical-align: top;padding-left: 32px;padding-right: 32px;word-break: break-word;word-wrap: break-word">
+                              
+            <div class="btn" style="Margin-bottom: 24px;padding: 2px;text-align: center">
+              <![if !mso]><a style="border: 1px solid #ffffff;display: inline-block;font-size: 13px;font-weight: bold;line-height: 15px;outline-style: solid;outline-width: 2px;padding: 10px 30px;text-align: center;text-decoration: none !important;transition: all .2s;color: #fff !important;font-family: Georgia,serif;background-color: #41637e;outline-color: #41637e;text-shadow: 0 1px 0 #3b5971" href="mailto:coders@miamicodemonkeys.com">Contact Us</a><![endif]>
+            <!--[if mso]><v:rect xmlns:v="urn:schemas-microsoft-com:vml" href="http://miamicodemonkeys.createsend1.com/t/i-l-jlhltjk-l-h/" style="width:134px" fillcolor="#41637E" strokecolor="#41637E" strokeweight="6px"><v:stroke linestyle="thinthin"></v:stroke><v:textbox style="mso-fit-shape-to-text:t" inset="0px,7px,0px,7px"><center style="font-size:13px;line-height:15px;color:#FFFFFF;font-family:Georgia,serif;font-weight:bold;mso-line-height-rule:exactly;mso-text-raise:0px">Contact Us</center></v:textbox></v:rect><![endif]--></div>
+          
+                            </td>
+                          </tr>
+                        </tbody></table>
+                      
+                      <div class="column-bottom" style="font-size: 8px;line-height: 8px">&nbsp;</div>
+                    </td>
+                  </tr>
+                </tbody></table>
+              </td>
+              <td class="border" style="padding: 0;vertical-align: top;font-size: 1px;line-height: 1px;background-color: #dbdbdb;width: 1px">&#8203;</td>
+            </tr>
+          </tbody></table>
+        
+          <table class="border" style="border-collapse: collapse;border-spacing: 0;font-size: 1px;line-height: 1px;background-color: #dbdbdb;Margin-left: auto;Margin-right: auto" width="602">
+            <tbody><tr><td style="padding: 0;vertical-align: top">&#8203;</td></tr>
+          </tbody></table>
+        
+      <div class="spacer" style="font-size: 1px;line-height: 32px;width: 100%">&nbsp;</div>
+      <table class="footer centered" style="border-collapse: collapse;border-spacing: 0;Margin-left: auto;Margin-right: auto;width: 602px">
+        <tbody>
+        <tr><td class="border" style="padding: 0;vertical-align: top;font-size: 1px;line-height: 1px;background-color: #dbdbdb;width: 1px">&nbsp;</td></tr>
+        <tr>
+          <td style="padding: 0;vertical-align: top">
+            <table style="border-collapse: collapse;border-spacing: 0">
+              <tbody><tr>
+                <td class="address" style="padding: 0;vertical-align: top;width: 250px;padding-top: 32px;padding-bottom: 64px">
+                  <table class="contents" style="border-collapse: collapse;border-spacing: 0;table-layout: fixed;width: 100%">
+                    <tbody><tr>
+                      <td class="padded" style="padding: 0;vertical-align: top;padding-left: 0;padding-right: 10px;word-break: break-word;word-wrap: break-word;text-align: left;font-size: 12px;line-height: 20px;color: #999;font-family: Georgia,serif">
+                        <div>Miami Code Monkeys<br>
+6498 Collins Avenue #46<br>
+Miami Beach, FL 33141</div>
+                      </td>
+                    </tr>
+                  </tbody></table>
+                </td>
+                <td class="subscription" style="padding: 0;vertical-align: top;width: 350px;padding-top: 32px;padding-bottom: 64px">
+                  <table class="contents" style="border-collapse: collapse;border-spacing: 0;table-layout: fixed;width: 100%">
+                    <tbody><tr>
+                      <td class="padded" style="padding: 0;vertical-align: top;padding-left: 10px;padding-right: 0;word-break: break-word;word-wrap: break-word;font-size: 12px;line-height: 20px;color: #999;font-family: Georgia,serif;text-align: right">
+                        <div>You are receiving this email in response to your craigslist post.</div>
+                        <div>
+                          <span class="block">
+                            <span>
+                              <a style="font-weight: bold;text-decoration: none;transition: all .2s;color: #999" href="http://miamicodemonkeys.updatemyprofile.com/i-l-2AD73FFF-l-s" lang="en">
+                                Preferences
+                              </a>
+                              <span class="hide">&nbsp;&nbsp;|&nbsp;&nbsp;</span>
+                            </span>
+                          </span>
+                          <span class="block"><a style="font-weight: bold;text-decoration: none;transition: all .2s;color: #999" href="http://miamicodemonkeys.createsend1.com/t/i-u-jlhltjk-l-g/">Unsubscribe</a></span>
+                        </div>
+                      </td>
+                    </tr>
+                  </tbody></table>
+                </td>
+              </tr>
+            </tbody></table>
+          </td>
+        </tr>
+      </tbody></table>
+    </center>
+  <img style="border: 0 !important;-ms-interpolation-mode: bicubic;visibility: hidden !important;display: block !important;height: 1px !important;width: 1px !important;margin: 0 !important;padding: 0 !important" src="https://miamicodemonkeys.createsend1.com/t/i-o-jlhltjk-l/o.gif" width="1" height="1" border="0" alt="">
+<script type="text/javascript" src="https://js.createsend1.com/js/jquery-1.7.2.min.js?h=C99A4659brocolli"></script>
+<div id="fb-root"></div>
+<script src="https://connect.facebook.net/en_US/all.js#xfbml=1"></script>
+
+<script type="text/javascript" src="https://js.createsend1.com/js/track.min.js?h=B7B39702brocolli"></script>
+<script type="text/javascript">
+$(document).ready(function () {
+    CS.WebVersion.setup({"LikeActionBase":"/t/i-fb-jlhltjk-l-","IsSubscriber":false});
+});
+</script>
+</body>

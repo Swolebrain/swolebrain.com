@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+<head>
+    <title>Chesslessons.com - Learn from the Masters</title>
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css"> <!-- load bootstrap css -->
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css"> <!-- load fontawesome -->
+    <style>
+        body        { padding-top:80px; }
+    </style>
+</head>
+<body>
+<div class="container">
+
+	
+	<!--This is the authentication div set. It can be crammed in a corner-->
+    <% if ( typeof user == 'undefined' ) { %>
+        <div class="jumbotron text-center">
+            <h1><span class="fa fa-lock"></span> Log in</h1>
+            <a href="/login" class="btn btn-default"><span class="fa fa-user"></span>Login</a>
+            <a href="/signup" class="btn btn-default"><span class="fa fa-user"></span>Signup</a><br>
+            <a href="/auth/facebook" class="btn btn-primary"><span class="fa fa-facebook"></span> Log in with Facebook</a>
+        </div>
+    <% } else if ( typeof user.local.email != 'undefined') { %>
+        <div class="jumbotron text-center">
+                <h1><span class="fa fa-lock"></span> Welcome, <%= user.local.name %><br></h1>
+                Your unique identifier is: <%= user._id %><br>
+                Your email is: <%= user.local.email %><br>
+        </div>
+    <% } else { %>
+    	<div class="jumbotron text-center">
+                <h1><span class="fa fa-lock"></span> Welcome, facebookian <%= user.facebook.name %><br></h1>
+                Your unique identifier is: <%= user._id %><br>
+                Your facebook email is: <%= user.facebook.email %><br>
+        </div>
+    <% } %>
+
+</div>
+</body>
+</html>

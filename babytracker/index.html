@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="UTF-8">
+    <title>Baby Tracker</title>
+    <link href='https://fonts.googleapis.com/css?family=Share+Tech+Mono' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    
+    
+    
+  </head>
+
+  <body>
+
+    <div id="wrap">
+      <div id="regbar">
+        <div id="navthing">
+          <h2><a href="#" id="loginform">Login</a> | <a href="#" id="registerform">Register</a></h2>
+        <div class="login">
+          <div class="arrow-up"></div>
+          <div class="formholder">
+            <div class="randompad">
+               <fieldset>
+                 <label name="email">Email</label>
+                 <input id="logemail" type="email"  />
+                 <label name="password">Password</label>
+                 <input id="logpassword" type="password" />
+                 <input method="login" type="submit" value="Login" />
+
+               </fieldset>
+            </div>
+          </div>
+        </div>
+        <div class="register">
+          <div class="arrow-up"></div>
+          <div class="formholder">
+            <div class="randompad">
+               <fieldset>
+                 <label name="email">Email</label>
+                 <input type="email"  id="regemail"/>
+                 <label name="password">Password</label>
+                 <input type="password" id="regpassword"/>
+                 <label name="password-confirm">Confirm Password</label>
+                 <input type="password" id="regpassword-confirm"/>
+                 <input method="register" type="submit" value="Register" />
+
+               </fieldset>
+            </div>
+          </div>
+        </div>  
+
+        </div>
+      </div>
+    </div>
+    <!-- here is the main app ui -->
+    <div id="main-ui">
+      <div id="begin-feed" class="hoverable">Begin New Feed</div>
+      <div id="view-reports" class="hoverable">View Reports</div>
+      <div id="events" class="row">
+        <div id="left-boob">
+          <br><i class="fa fa-dot-circle-o fa-4x hoverable"></i>
+          <h3>Left <span class="hidden-xs">Breast</span></h3>
+        </div>
+        <div id="right-boob">
+          <br><i class="fa fa-dot-circle-o fa-4x hoverable"></i>
+          <h3>Right <span class="hidden-xs">Breast</span></h3>
+        </div>
+        <div id="pee">
+          <br><i class="fa fa-hand-pointer-o fa-4x hoverable"></i>
+          <h3>Pee</h3>
+        </div>
+        <div id="poo">
+          <br><i class="fa fa-hand-peace-o fa-4x hoverable"></i>
+          <h3>Poo</h3>
+        </div>
+          
+      </div>
+      
+      <div id="spa-panel">
+        <div id="stopwatch" style="display:none;">
+          <span id="time-display">00:00:000</span> <br class="mobonly">
+          <i id="playbtn" class="fa fa-play-circle-o hoverable"></i>
+          <i id="pausebtn" class="fa fa-pause-circle-o hoverable"></i>
+          <i id="stopbtn" class="fa fa-stop-circle-o hoverable"></i>
+          <i id="resetbtn" class="fa fa-times hoverable"></i>
+          <i id="savebtn" class="fa fa-floppy-o hoverable"></i>
+          <div id="stopwatch-feedback">&nbsp;</div>
+        </div>
+        <div id="opts12" style="display:none;">
+          <div id="opts-feedback">&nbsp;</div>
+        </div>
+        <div id="reports" style="display:none;">
+          <h3>Last Breast Used: <span id="lastboob"></span></h3>
+          <h3>Stools today: <span id="poos-today"></span></h3>
+          <h3>Pees today: <span id="pees-today"></span></h3>
+          <br>
+          <h3>Latest Feedings</h3>
+          <table>
+            <thead>
+              <td>Start Time</td>
+              <td>Total Minutes</td>
+              <td>Breast started</td>
+            </thead>
+            <tbody>
+              
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+    
+    <script src='js/jquery.js'></script>
+    <script src="js/firebase.js"></script>
+    <script>
+      var ref = new Firebase("https://baby-tracker-1.firebaseio.com");
+      var currentUser;
+      var authData = ref.getAuth();
+      if (authData) {
+        console.log("User " + authData.uid + " is logged in with " + authData.provider);
+        currentUser = ref.child("users").child(authData.uid);
+        $("#wrap").hide();
+      } else {
+        console.log("User is not logged in");
+        $("#wrap").show(); 
+        $("#main-ui").fadeOut();
+      }
+      function fitToHeight(){
+        $("#events").find("div").each(function(i, e){
+          var w = $(e).width();
+          $(e).height(w);
+          $(e).css("font-size", (w/8)+"px");
+        });
+      }
+      $(window).on("load resize", fitToHeight);
+    </script>
+    <script src="js/fb.js"></script>
+    <script src="js/loginform.js"></script>
+    <script src="js/stopwatch.js"></script>
+    <script src="js/main-menu.js"></script>
+    
+    
+    
+  </body>
+</html>
